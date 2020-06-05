@@ -1,0 +1,89 @@
+.navbar{
+	background-color: #800000 !important;
+	color: white !important;
+}
+.nav-link{
+	color: white !important ;
+}
+.fa-shopping-cart,{
+	font-size: 32px !important ;
+	color: #fff !important;
+
+}
+.fa-envelope,.fa-users,.fa-paypal{
+	font-size: 30px !important;
+	margin-right: 10px;
+}
+.card1,.card2,.card3{
+	display: flex;
+	height: 60px;
+	width: 300px;
+	box-shadow: 2px 4px 3px grey;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+.maincards{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #800000;
+	flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+  .card1,.card2,.card3 {
+    width: 100%;
+  }
+  body {
+    background-color: #F0F8FF;
+  }
+  .heading,.heading1{
+  	 width: 100% !important;
+  }
+}
+.heading{
+	margin-top: 30px;
+	box-shadow: 2px 4px 5px grey;
+	height: 60%;
+	width: 22%;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #800000;
+
+}
+.card,.top{
+	color: #800000;
+	margin-top: 10px;
+	font-weight: bold;
+
+}
+.heading1{
+	margin-top: 30px;
+	box-shadow: 2px 4px 5px grey;
+	height: auto;
+	width: 32%;
+	color: #fff;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: #800000;
+}
+
+.footer{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	background: #800000;
+	height: 50px;
+	padding: 10px;
+	margin-top: 20px;
+
+}
+.btn{
+	color: #fff;
+	background: #800000;
+	
+
+	
+}
